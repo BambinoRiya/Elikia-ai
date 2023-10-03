@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('src/assets/back-image.png'); 
+    background: linear-gradient(180deg, #FDFEFF 0%, rgba(181, 183, 184, 0.69) 100%); 
     background-size: cover; 
     background-repeat: no-repeat; 
     
@@ -23,14 +23,10 @@ section{
 }
 header{
     position: relative;
-    top: auto;
-    bottom: 30px;
-    right: 80px;
-    width: 100%;
-    padding: 30px 100px;
+    top: -5px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .logo-container {
@@ -40,13 +36,18 @@ header{
   width: 100px;
   height: auto;
   float: left;
-  margin-left: -5px;
+  padding: 20px;
 }
 
 .contact-text {
     font-family: 'Montserrat', sans-serif; 
     font-weight: bold; 
     float: right;
+
+  }
+
+  .contact-text:hover{
+    color: #00BF63;
   }
 
   .contact-container {
@@ -80,10 +81,12 @@ a{
 h2 {
     font-size: 50px;
     line-height: 1; 
+    font-weight: 450;
   }
 .info {
     position: relative; 
     z-index: 1; 
+    margin-top: -50px;
   } 
 .green-text {
     color: #00BF63; /* Set the color to #00BF63 (green) */
@@ -95,7 +98,8 @@ h2 {
     left: 0; 
     width: 300px;
     height: 500px;
-    top: 200px;
+    top: 155px;
+    margin-top: -15px;
     z-index: -1; 
   }
 .lady-justice {
@@ -105,17 +109,50 @@ h2 {
     margin-left: -5px;
   }
 .demo{
-    width: 200px;
-    height: fit-content;
-    float: right;
+    width: 50em;
 }
 
-.demo-cointainer{
-    float: right;
-    position: relative;
+.demo-container{
     width: 800px;
-    height: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
 
 }
+
+.use-ai-btn-container {
+  position: absolute;
+  right:10em;
+  top: 32em;
+}
+
+.use-ai-btn-container p{
+
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.use-ai-btn{
+  height: 20px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #00BF63;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #EAF6F6;
+  font-weight: bold;
+}
+
+.use-ai-btn:hover {
+    background-color: #EAF6F6;
+    color: #00BF63;
+}
+
+
+
   
   
