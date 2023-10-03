@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url('src/assets/back-image.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+  }
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header{
+    position: relative;
+    top: auto;
+    bottom: 30px;
+    right: 80px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    overflow: hidden;
+  }
+.logo {
+  width: 100px;
+  height: auto;
+  float: left;
+  margin-left: -5px;
+}
+
+.contact-text {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    float: right;
+  }
+
+  .contact-container {
+    float: right; 
+    height: auto;
+    width: 100px;
+    margin-right: 40px;
+  }
+  
+  .contact-link {
+    text-decoration: none; 
+  }
+  
+  .contact-text {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    color: black;
+    font-size: large;
+  }
+
+a{
+    word-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 10px;
+}
+  a:hover{
+    color: #EAF6F6;
+}
+
+
+h2 {
+    font-size: 50px;
+    line-height: 1; 
+  }
+.info {
+    position: relative; 
+    z-index: 1; 
+  } 
+.green-text {
+    color: #00BF63; /* Set the color to #00BF63 (green) */
+  }
+
+.justice-container {
+    float: left; 
+    position: absolute; 
+    left: 0; 
+    width: 300px;
+    height: 500px;
+    top: 200px;
+    z-index: -1; 
+  }
+.lady-justice {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: -5px;
+  }
+.demo{
+    width: 200px;
+    height: fit-content;
+    float: right;
+}
+
+.demo-cointainer{
+    float: right;
+    position: relative;
+    width: 800px;
+    height: 800px;
+
+}
+  
+  
