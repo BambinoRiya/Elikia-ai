@@ -1,0 +1,34 @@
+:root {
+    font-family: Montserrat;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: lightblue;
+    color: #373737;
+    background-color: --color-primary;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #C5C7D5;
+    background-image: url('../../assets/lady-justice.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+  
+  
+  
+  
+  
+  

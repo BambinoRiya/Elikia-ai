@@ -1,0 +1,256 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: #ffff;
+  color: black;
+  font-family: "Poppins" , sans-serif;
+
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+
+}
+
+.sideBar{
+  flex: 3;
+  border-right: 1px solid rgb(189, 191, 190);
+}
+
+.main{
+  flex: 9;
+}
+
+.logo{
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: auto;
+  max-width: 25%;
+}
+
+.brand{
+  font-size: 2rem;
+}
+
+.upperSide{
+  padding: 2.5rem;
+  border-bottom: 1px solid rgb(189, 191, 190);
+  height: 70%;
+}
+
+.upperSideTop{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.addBtn{
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+.midBtn{
+  background: #00BF63;
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+
+}
+
+.query{
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 1.5rem;
+  width: 25rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(98, 98, 1);
+}
+
+.query>img{
+  margin-right: 2rem;
+  object-fit: cover;
+  height: 1.75rem;
+}
+
+.lowerside{
+  padding: 2rem;
+}
+
+.listItems{
+  margin: 1rem;
+  margin-left: 3.6rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.listItemsImg{
+  margin: 0.75rem;
+  padding-right: 1rem;
+  
+}
+
+.listItems:nth-child(1)>.listItemsImg{
+  margin-right: 0.5rem;
+  
+}
+
+.listItems:nth-child(3)>.listItemsImg{
+  margin-right: 0.75rem;
+  
+}
+
+.main {
+  min-height: calc(100vh - 14rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 10rem;
+  margin-bottom: 3rem;
+
+}
+
+.chats{
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 70rem;
+  height: calc(100vh - 17rem);
+}
+
+.chat{
+  margin: 1rem;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.chatImg{
+  object-fit: cover;
+  width: 3.5rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+}
+
+.bot{
+  /* background: rgba(189, 191, 190); */
+  background: rgba(230, 237, 234);
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+/* .chatImg:nth-child(1)>.chatImg{
+  width: 5rem;
+} */
+
+.chatFooter{
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp{
+  padding: 0.5rem;
+  background: rgba(230, 237, 234);
+  display: flex;
+  align-items: center;
+  border-radius: 0.6rem;
+  width: 68rem;
+}
+
+.inp>input{
+  width:calc(100% - 3rem);
+  outline: none;
+  padding: 1.25rem;
+  color: black;
+}
+
+.inp>input, .send{
+  background: transparent;
+  border: none;
+}

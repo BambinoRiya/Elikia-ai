@@ -1,24 +1,71 @@
-# Levis - AI Legal Advisor Chatbot
+# Getting Started with Create React App
 
-Welcome to the Levis GitHub repository! Levis is an AI-powered legal advisor chatbot designed to provide users with expert guidance and information on legal matters. This repository contains the source code and development history of the Levis chatbot.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Structure
+## Available Scripts
 
-The repository is structured as follows:
+In the project directory, you can run:
 
-- backend/: This directory contains the backend code for Levis.  Implementation is done using Flask and Langchain for the backend structure
+### `npm start`
 
-- frontend/: In this directory, you will find the frontend code for Levis. It's implemented using typescript, React and includes HTML, and CSS files for the user interface.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- models/: models/: Levis relies on trained Generative AI models to enhance its capabilities. These models, accessed through the OpenAI API, play a crucial role in providing insightful responses to legal queries.
-## Purpose
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-The purpose of this repository is to provide a collaborative space for the development and enhancement of the Levis chatbot. By making this repository public, we encourage community engagement, allowing developers, contributors, and users to explore the codebase, report issues, and suggest improvements.
+### `npm test`
 
-## How Generative AI Models Solve Legal Problems
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Levis harnesses the power of Generative AI models to address legal queries effectively. These models have been fine-tuned to process and interpret questions related to Ghanaian law. By incorporating cutting-edge techniques in natural language processing, Levis provides accurate and informative responses to user queries, making it a valuable legal advisor.
+### `npm run build`
 
-With Generative AI models at its core, Levis allows users to ask legal questions and receive meaningful answers. It simplifies complex legal concepts, offers guidance on legal matters, and empowers users with knowledge about the Ghanaian legal system. This approach significantly enhances the accessibility of legal information and helps individuals navigate legal challenges more effectively.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-We welcome your contributions and collaboration to further improve and expand the capabilities of Levis.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# levis-ai
